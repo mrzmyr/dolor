@@ -1,4 +1,4 @@
-Dolor
+Dolor [![Build Status](https://travis-ci.org/mrzmyr/dolor.svg?branch=master)](https://travis-ci.org/mrzmyr/dolor)
 =========
 
 NodeJS version of [the Frank project](https://github.com/blahed/frank) as a wonderful set of helpers for generating random text content like lorem ipsum.
