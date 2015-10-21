@@ -11,7 +11,7 @@ npm install dolor --save
 
 ### Usage
 
-```bash
+```
 var dolor = require('dolor');
 
 dolor.sentence()      # returns a single sentence
