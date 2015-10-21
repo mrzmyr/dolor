@@ -5,23 +5,30 @@ NodeJS version of [the Frank project](https://github.com/blahed/frank) as a wond
 
 ### Installation
 
-  npm install lorem --save
+```bash
+npm install dolor --save
+```
 
 ### Usage
 
-  var lorem = require('lorem');
+```bash
+var dolor = require('dolor');
 
-  lorem.sentence      # returns a single sentence
-  lorem.words 5       # returns 5 individual words
-  lorem.word
-  lorem.paragraphs 10 # returns 10 paragraphs 
-  lorem.paragraph
-  lorem.date          # accepts a strftime format argument
-  lorem.name
-  lorem.first_name
-  lorem.last_name
-  lorem.email
+dolor.sentence()      # returns a single sentence
+dolor.sentences(3)    # returns 3 individual sentence
 
-### Tests
+dolor.word()
+dolor.words(5)        # returns 5 individual words
 
-  npm test
+dolor.paragraph()
+dolor.paragraphs(10)  # returns 10 paragraphs 
+
+dolor.date()          # returns random instance of Date()
+
+dolor.tweet()
+
+dolor.name()          # returns first and last name
+dolor.firstName()
+dolor.lastName()
+dolor.email()
+```

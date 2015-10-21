@@ -82,9 +82,9 @@ function paragraphs(total) {
 }
 
 function date() {
-  var y = random(1, 20) + 1990;
-  var m = random(0, 11);
-  var d = random(1, 31);
+  var y = randm(1, 20) + 1990;
+  var m = randm(0, 11);
+  var d = randm(1, 31);
 
   return new Date(y, m, d);
 }
