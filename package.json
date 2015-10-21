@@ -4,7 +4,7 @@
   "description": "NodeJS version of the Frank project as a wonderful set of helpers for generating random text content like lorem ipsum.",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "./node_modules/.bin/mocha"
   },
   "repository": {
     "type": "git",
@@ -24,5 +24,8 @@
   "bugs": {
     "url": "https://github.com/mrzmyr/dolor/issues"
   },
-  "homepage": "https://github.com/mrzmyr/dolor"
+  "homepage": "https://github.com/mrzmyr/dolor",
+  "devDependencies": {
+    "mocha": "^2.3.3"
+  }
 }
