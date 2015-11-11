@@ -1,6 +1,6 @@
 {
   "name": "dolor",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "NodeJS version of the Frank project as a wonderful set of helpers for generating random text content like lorem ipsum.",
   "main": "index.js",
   "scripts": {
