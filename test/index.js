@@ -38,4 +38,11 @@ describe('dolor', function () {
     var re = /^([\w-]+(?:\.[\w-]+)*)@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,6}(?:\.[a-z]{2})?)$/i;
     assert.equal(re.test(dolor.email()), true);
   });
+
+  it('should return a country', function () {
+    var country = dolor.country();
+
+    assert.equal(country.code.length, 2);
+    assert.equal(country.name.length > 0, true);
+  });
 });

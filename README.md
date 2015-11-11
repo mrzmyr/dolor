@@ -11,7 +11,7 @@ npm install dolor --save
 
 ### Usage
 
-```
+```js
 var dolor = require('dolor');
 
 dolor.sentence()      # returns a single sentence
@@ -31,4 +31,6 @@ dolor.name()          # returns first and last name
 dolor.firstName()
 dolor.lastName()
 dolor.email()
+
+dolor.country()       # example: { code: 'NZ', name: 'New Zealand' }
 ```
