@@ -96,7 +96,7 @@ function firstName() {
 }
 
 function lastName() {
-  return FIRSTNAMES[randm(0, FIRSTNAMES.length - 1)];
+  return LASTNAMES[randm(0, LASTNAMES.length - 1)];
 }
 
 function name() {
