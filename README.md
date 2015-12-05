@@ -33,4 +33,5 @@ dolor.lastName()
 dolor.email()
 
 dolor.country()       # example: { code: 'NZ', name: 'New Zealand' }
+dolor.integer(2, 5)   # integer(min, max)
 ```

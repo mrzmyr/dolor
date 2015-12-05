@@ -116,6 +116,10 @@ function country() {
   return COUNTIES[randm(0, COUNTIES.length - 1)];
 }
 
+function integer(min, max) {
+  return Math.floor(Math.random() * (max - min + 1)) + min;
+}
+
 module.exports = {
   words: words,
   word: word,
@@ -129,5 +133,6 @@ module.exports = {
   name: name,
   tweet: tweet,
   email: email,
-  country: country
+  country: country,
+  integer: integer
 };

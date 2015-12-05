@@ -45,4 +45,12 @@ describe('dolor', function () {
     assert.equal(country.code.length, 2);
     assert.equal(country.name.length > 0, true);
   });
+
+  it('should return a integer', function () {
+    var randomInteger = dolor.integer(5, 20)
+
+    assert.equal(randomInteger >= 5, true);
+    assert.equal(randomInteger <= 20, true);
+  });
+
 });
